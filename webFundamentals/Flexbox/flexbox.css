@@ -1,0 +1,13 @@
+.container .item {
+    width: 50px;
+    margin: 20px;
+    border: 2px solid blue;
+    background: lightgray;
+}
+
+.container {
+    display: flex;
+    flex-flow: row wrap;
+    /* justify-content: space-evenly; */
+    align-items: center;
+}
